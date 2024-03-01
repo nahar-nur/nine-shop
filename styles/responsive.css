@@ -1,0 +1,30 @@
+@media screen and (max-width:677px) {
+    .nav-container{
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 30px;
+
+    }
+    .nav-container-right{
+        flex-direction: column;
+        margin-left: 50px;
+        gap: 20px;
+    }
+    .banner-container{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .banner-text{
+        width: 100%;
+        order: 2;
+    }
+    .banner-text p{
+        margin-left: 50px;
+    }
+    .banner-image{
+        width: 100%;
+        margin-top: 30px;
+        order: 1;
+    }
+    
+}
